@@ -3,12 +3,14 @@
 
 ## Crear una rama que se llame primera.
 En el repositorio local **prueba_nerea** he creado la rama primera con el comando `git branch "nombre de la rama"`, después, con el comando `git branch` verifico que se haya creado correctamente.
+
 ![CrearRama](Imagenes3/creacion_rama.jpeg)
 
 ## Crear un fichero en la rama primera y fusionarlo con la main.
 Para crear el fichero utilicé el comando `echo`, seguido del contenido del fichero para redirigir la salida a un archivo de texto plano.  
 No se ha producido un conflicto porque el archivo fue creado originalmente en la rama primera **no existe** en la rama main, que es la principal.
 ![CrearArchivo](Imagenes3/crear_archivo.jpeg)  
+
 Después, con el comando `git merge`y el nombre de la rama se fusionan ambas ramas.
 ![FusionarRamas](Imagenes3/fusionar_ramas.jpeg)
 
@@ -21,6 +23,7 @@ es el comando para eliminar la rama primera que se creó en los ejercicios anter
 
 ## Crea una rama que se llame segunda y modifica un fichero para producir un conflicto.
 Para producir un conflicto de colisión entre dos archivos al fusionar dos ramas, primero debe crearse otra rama y modificar en ella uno de los archivos del repositorio.
+
 ![CrearSegunda](Imagenes3/creacion_segunda.jpeg)  
 Seguidamente, se fusionan ambas ramas para producir el conflicto de colisión entre ambos archivos. Cambio a la rama primera y modifico el fichero para después fusionarlo con la rama segunda, donde ya existía el archivo previamente. Al fusionar ambas ramas, se produce un conflicto de colisión entre los archivos.
 ![GenerarConflicto](Imagenes3/generar_conflicto.jpeg)  

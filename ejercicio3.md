@@ -23,8 +23,8 @@ es el comando para eliminar la rama primera que se creó en los ejercicios anter
 
 ## Crea una rama que se llame segunda y modifica un fichero para producir un conflicto.
 Para producir un conflicto de colisión entre dos archivos al fusionar dos ramas, primero debe crearse otra rama y modificar en ella uno de los archivos del repositorio.
-
 ![CrearSegunda](Imagenes3/creacion_segunda.jpeg)  
+
 Seguidamente, se fusionan ambas ramas para producir el conflicto de colisión entre ambos archivos. Cambio a la rama primera y modifico el fichero para después fusionarlo con la rama segunda, donde ya existía el archivo previamente. Al fusionar ambas ramas, se produce un conflicto de colisión entre los archivos.
 
 ![GenerarConflicto](Imagenes3/generar_conflicto.jpeg)  

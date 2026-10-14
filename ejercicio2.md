@@ -23,7 +23,7 @@ echo "contenido del fichero" > fichero.txt
 
 **Enlace al archivo Markdown del Ejercicio 1:** [Ejercicio 1: Introducción a git y GitHub.](ejercicio1.md)
 
-**Imagen**: ![Imagen](/Repositorios/prueba_nerea/images/imagen.jpeg)
+**Imagen**: ![Imagen](images/imagen.jpeg)
 
 **Tabla:**
 | Encabezado 1 | Encabezado 2 | Encabezado 3 |

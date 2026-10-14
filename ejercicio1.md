@@ -18,6 +18,7 @@ Este apartado fue realizado con el comando `git remote add origin` y el enlace H
 
 ### Subir el repositorio.
 Después de haber realizado un `git add .`y un `git commit`para poder confirmar los cambios de los ficheros creados anteriormente, realicé un `git push origin main`para subir los cambios al repositorio remoto.
+
 ![SubirRepo](Imagenes/subir_repositorio.jpeg)
 
 ## Clonar el repositorio.
@@ -38,4 +39,5 @@ El apartado final consistió en actualizar el repositorio clonado en la máquina
 Git pull
 ``` 
 es el comando para realizar este ejercicio.
+
 ![ActualizarRepo](Imagenes/git_pull.jpeg)

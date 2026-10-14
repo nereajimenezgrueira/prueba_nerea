@@ -10,27 +10,27 @@ Después de haber creado el repositorio en GitHub, creé una carpeta en el equip
 ```
 git init
 ```
-![CrearRepo](/Repositorios/prueba_nerea/capturas%20Ejercicio%201/creacion_repositorio.jpeg)
+![CrearRepo](Imagenes/creacion_repositorio.jpeg)
 
 ### Conectar el repositorio local con el remoto en GitHub.
 Este apartado fue realizado con el comando `git remote add origin` y el enlace HTTPS, utilizando el token para poder loguearme y conectar el repositorio.
-![ConectarRepo](/Repositorios/prueba_nerea/capturas%20Ejercicio%201/conectar_repositorio.jpeg)
+![ConectarRepo](Imagenes/conectar_repositorio.jpeg)
 
 ### Subir el repositorio.
 Después de haber realizado un `git add .`y un `git commit`para poder confirmar los cambios de los ficheros creados anteriormente, realicé un `git push origin main`para subir los cambios al repositorio remoto.
-![SubirRepo](/Repositorios/prueba_nerea/capturas%20Ejercicio%201/subir_repositorio.jpeg)
+![SubirRepo](Imagenes/subir_repositorio.jpeg)
 
 ## Clonar el repositorio.
 Para este apartado fue utilizado un clon de una máquina virtual Ubuntu Server 26.04. Una vez tuve el repositorio remoto, lo cloné en la máquina virtual con el comando `git clone` y la URL del repositorio que proporciona GitHub, siempre la de HTTPS.
-![ClonarRepo](/Repositorios/prueba_nerea/capturas%20Ejercicio%201/clonar_mv.jpeg)
+![ClonarRepo](Imagenes/clonar_mv.jpeg)
 
 ## Modificar uno de los archivos y crear otro. Subir los cambios.
 Para realizar esta práctica, modifiqué el archivo1.txt, añadiéndole otra línea. 
-![ModificarArchivo](/Repositorios/prueba_nerea/capturas%20Ejercicio%201/modificar_archivo.jpeg)
+![ModificarArchivo](Imagenes/modificar_archivo.jpeg)
 
 Seguidamente, creé un archivo nuevo con `echo`, agregándole un texto y redirigiendo la salida a un archivo con extensión .txt
 Finalmente, agregé todos los archivos modificados con el comando `git add` y confirmé con los cambios con `git commit` y subí los cambios con `git push`.
-![Archivo3](/Repositorios/prueba_nerea/capturas%20Ejercicio%201/archivo3_subida.jpeg)
+![Archivo3](Imagenes/archivo3_subida.jpeg)
 
 ## Actualizar la versión local del repositorio.
 El apartado final consistió en actualizar el repositorio clonado en la máquina virtual. En otras palabras, _traer los cambios_ del repositorio remoto. 
@@ -38,4 +38,4 @@ El apartado final consistió en actualizar el repositorio clonado en la máquina
 Git pull
 ``` 
 es el comando para realizar este ejercicio.
-![ActualizarRepo](/Repositorios/prueba_nerea/capturas%20Ejercicio%201/git_pull.jpeg)
+![ActualizarRepo](Imagenes/git_pull.jpeg)

@@ -3,6 +3,7 @@
 
 ## Crear una rama que se llame primera.
 En el repositorio local **prueba_nerea** he creado la rama primera con el comando `git branch "nombre de la rama"`, después, con el comando `git branch` verifico que se haya creado correctamente.
+
 ![CrearRama](Imagenes3/creacion_rama.jpeg)
 
 ## Crear un fichero en la rama primera y fusionarlo con la main.
@@ -37,6 +38,7 @@ Para solucionar el conflicto entre los dos archivos, se debe modificar el ficher
 ![ModificarArchivoConflicto](Imagenes3/modificar_archivoConflicto.jpeg)  
 
 Finalmente, basta con hacer un `git add` del fichero modificado y un `git commit` para modificar los cambios. Cambio a la rama **segunda** y la fusiono con la main.
+
 ![SolucionConflicto](Imagenes3/solucion_conflicto.jpeg)  
 
 ## Verificación en GitHub.

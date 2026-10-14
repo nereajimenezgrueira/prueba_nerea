@@ -31,6 +31,7 @@ Para realizar esta práctica, modifiqué el archivo1.txt, añadiéndole otra lí
 
 Seguidamente, creé un archivo nuevo con `echo`, agregándole un texto y redirigiendo la salida a un archivo con extensión .txt
 Finalmente, agregé todos los archivos modificados con el comando `git add` y confirmé con los cambios con `git commit` y subí los cambios con `git push`.
+
 ![Archivo3](Imagenes/archivo3_subida.jpeg)
 
 ## Actualizar la versión local del repositorio.

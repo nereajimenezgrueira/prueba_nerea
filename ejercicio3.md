@@ -26,7 +26,9 @@ Para producir un conflicto de colisión entre dos archivos al fusionar dos ramas
 
 ![CrearSegunda](Imagenes3/creacion_segunda.jpeg)  
 Seguidamente, se fusionan ambas ramas para producir el conflicto de colisión entre ambos archivos. Cambio a la rama primera y modifico el fichero para después fusionarlo con la rama segunda, donde ya existía el archivo previamente. Al fusionar ambas ramas, se produce un conflicto de colisión entre los archivos.
+
 ![GenerarConflicto](Imagenes3/generar_conflicto.jpeg)  
+
 El contenido del fichero que ha sufrido el conflicto se ve de la siguiente manera: 
 ![ArchivoConflicto](Imagenes3/archivo_conflicto.jpeg)
 

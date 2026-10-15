@@ -35,6 +35,7 @@ El contenido del fichero que ha sufrido el conflicto se ve de la siguiente maner
 
 ## Soluciona el conflicto y sincroniza la rama segunda en el repositorio. Verifica en GitHub que se ha creado la rama en el repositorio.
 Para solucionar el conflicto entre los dos archivos, se debe modificar el fichero al que se le han añadido los caracteres especiales y guardarlo. 
+
 ![ModificarArchivoConflicto](Imagenes3/modificar_archivoConflicto.jpeg)  
 
 Finalmente, basta con hacer un `git add` del fichero modificado y un `git commit` para modificar los cambios. Cambio a la rama **segunda** y la fusiono con la main.
